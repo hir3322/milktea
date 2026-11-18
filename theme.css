@@ -1,0 +1,24 @@
+/* 테마 · 말랑 수첩 밀크티 · 말랑 · #efe1d1 #7d5a3c */
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+/* 말랑 수첩 테마 — 흰 바탕 · 연한 베이지 포인트
+   --ac-radius 와 글꼴(--ac-font-*) 은 지금 쓰는 값 그대로 두면 된다. */
+:root {
+  --ac-bg: #ffffff;
+  --ac-surface: #ffffff;
+  --ac-line: #ece7df;
+  --ac-text: #2a2723;
+  --ac-muted: #776f65;
+  --ac-cover: #efe1d1;
+  --ac-cover-line: #e2cdb5;
+  --ac-accent: #efe1d1;
+  --ac-accent-text: #2a2723;
+  --ac-accent-strong: #7d5a3c;
+  --ac-stitch: #dcc4aa;
+  --ac-font-pixel: 'Galmuri11', 'Galmuri9', monospace;
+  --ac-shadow:
+    0 1px 2px rgba(60, 48, 30, 0.06),
+    0 6px 14px -4px rgba(60, 48, 30, 0.10),
+    0 22px 44px -16px rgba(60, 48, 30, 0.18),
+    6px 6px 0 -1px #faf7f2,
+    6px 6px 0 0 #ece7df;
+}
